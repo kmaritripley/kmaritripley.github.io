@@ -26,6 +26,9 @@ markdown: kramdown
 
 gems:
 
+# Server Config options
+livereload: true     # You no longer need to include --livereload
+
 exclude:
   - Gemfile
   - Gemfile.lock
