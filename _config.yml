@@ -32,3 +32,21 @@ livereload: true     # You no longer need to include --livereload
 exclude:
   - Gemfile
   - Gemfile.lock
+
+  # Collections
+collections:
+  projects:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
+  - scope:
+      type: projects
+    values:
+      layout: default

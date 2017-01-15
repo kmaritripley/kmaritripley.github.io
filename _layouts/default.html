@@ -26,13 +26,13 @@
 
 		<main class="site-content">
 
-			{% if page.header_image %}
-				<figure>
-					<img src="{{ base.url }}/images/{{ page.header_image }}" alt="{{ page.title }}">
-				</figure>
-			{% endif %}
+			{% if page.featured_image %}{% for image in page.featured_image 
+				%}<figure class="featured-image">
+					<img src="{{ site.baseurl }}/images/{{ image.large }}" alt="{{ image.alt }}">
+				</figure>{% 
+			endfor %}{% endif %}
 
-			{% if !page.hide-title %}<h1>{{ page.title }}</h1>{% endif %}
+			{% unless page.hide_title %}<h1>{{ page.title }}</h1>{% endunless %}
 
 		  {{ content }}
 

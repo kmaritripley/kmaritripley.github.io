@@ -157,7 +157,7 @@ a:hover, a:target {
   padding: 2em;
 }
 
-/* Masonry */
+/* Masonry (the javascript plugin that tiles images on index view ) */
 
 .masonry-grid {
   max-width: 62em;
@@ -199,4 +199,10 @@ a:hover, a:target {
   .grid-item--width2 { 
     width: 66.666666%; 
   }
+}
+
+/* Single view */
+
+.featured-image {
+  margin-bottom: 1em;
 }

@@ -2,7 +2,10 @@
 layout: default
 title: About
 permalink: /about/
-header_image: bonjour.jpg
+featured_image: 
+  - description: K Marit Ripley
+    alt: K. Marit Ripley
+    large: bonjour.jpg
 hide_title: true
 ---
 
