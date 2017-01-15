@@ -1,11 +1,11 @@
 ---
-title: "Winter Fire"
-weight: 1
+title: "Bird Lady"
+weight: 2
 featured_image:
-  description: Winter fire painting (oil on canvas)
-  alt: Winter fire
-  large: /projects/winter_fire/winter_fire_large.jpg
-  thumbnail: /projects/winter_fire/winter_fire_thumb.jpg
+  description: Bird lady painting (oil on canvas)
+  alt: Bird lady painting
+  large: /projects/bird_lady/bird_lady_large.jpg
+  thumbnail: /projects/bird_lady/bird_lady_thumb.jpg
 ---
 
 This is the winter fire project page.
