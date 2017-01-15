@@ -56,9 +56,3 @@ DEPENDENCIES
   jekyll-feed (~> 0.6)
   jekyll-livereload
   octopress-autoprefixer
-
-RUBY VERSION
-   ruby 2.3.0p0
-
-BUNDLED WITH
-   1.13.7
