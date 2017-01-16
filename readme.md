@@ -9,6 +9,19 @@
 6. Back in iTerm, start Jekyll `run_jekyll`
 7. Open Chrome and go to `localhost:4000`
 
+## How to save (commit) your progress
+
+You should save your progress by making a git commit after segments of work, for instance, creating a new post project. Here's how:
+
+1. In iTerm, stop the Jekyll server by pressing `Ctrl + c`
+2. Run `git status` if you want to see a list of changes you've made
+3. Run `git add` to stage those changes for commit
+4. Run `git status` again to make sure all of the changed files colored red before are now green
+5. Make the commit by running `git commit -m "[short message]"`; the short message should be in present tense and describe briefly the changes you made
+6. The commit is made, but you still need to push it to GitHub to make it live on your website; run `git push origin master` to push the commit live to GitHub.
+
+Remember, you'll need to run `jekyll_run` in iTerm again to start  working on your site at `localhost:4000`
+
 ## Images
 
 Content images, like those used in posts and projects, should be saved in folders created just for that piece of content. For instance, if you create a project called `still_life_with_yorkie.md`, you would create a folder called `still_life_with_yorkie` in the `images/content/projects` folder. 
