@@ -1,6 +1,6 @@
 ---
 title: "Bird Lady"
-weight: 2
+weight: 14
 featured_image:
   description: Bird lady painting (oil on canvas)
   alt: Bird lady painting
