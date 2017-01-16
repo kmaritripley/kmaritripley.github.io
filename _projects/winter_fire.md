@@ -8,4 +8,6 @@ featured_image:
   thumbnail: /projects/winter_fire/winter_fire_thumb.jpg
 ---
 
-This is the winter fire project page.
+This painting is for sale for $1,200.
+
+This is a painting I did in 2006. I really like.

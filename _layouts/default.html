@@ -20,23 +20,11 @@
 		<!-- Analytics here -->
 
 	</head>
-	<body {% if page.title %}class="{{ page.title }}"{% endif %}>
+	<body {% if page.title %}class="{{ page.title | slugify }}"{% endif %}>
 
 		{% include header.html %}
 
-		<main class="site-content">
-
-			{% if page.featured_image 
-				%}<figure class="featured-image">
-					<img src="{{ site.baseurl }}/images/{{ page.featured_image.large }}" alt="{{ page.featured_image.alt }}">
-				</figure>{% 
-			endif %}
-
-			{% unless page.hide_title %}<h1>{{ page.title }}</h1>{% endunless %}
-
-		  {{ content }}
-
-		</main>
+		{{ content }}
 
 		<footer class="site-footer">&copy;2016</footer>
 

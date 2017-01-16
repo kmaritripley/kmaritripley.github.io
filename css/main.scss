@@ -12,6 +12,10 @@ $font-normal: 400;
 $font-heavy: 500;
 $leading: 1.4em;
 
+$width-narrow: 24em;
+$width-medium: 42em;
+$width-wide: 62em;
+
 /* Reset */
 
 html {
@@ -85,7 +89,7 @@ a:hover, a:target {
 /* Site header */
 
 .site-header {
-  padding: 1.6em 1em 1em;
+  padding: 1em;
 }
 
 .site-header h1 {
@@ -99,7 +103,6 @@ a:hover, a:target {
 
 .site-header h1 a {
   font-size: 1.2em;
-  padding: .2em 1rem;
 }
 
 .site-header a:hover,
@@ -109,6 +112,7 @@ a:hover, a:target {
 
 .site-header nav {
   margin-top: 1em;
+  transform: translateX(-1em);
 }
 
 @media screen and (min-width: $bp-medium) {
@@ -118,6 +122,7 @@ a:hover, a:target {
   
   .site-header nav {
     margin: 0 0 0 auto;
+    transform: translateX(1em);
   }
 }
 
@@ -141,26 +146,31 @@ a:hover, a:target {
   padding: 1em;
 }
 
+.home.site-content {
+  padding: .5em;
+}
+
 .site-content > * {
   margin-right: auto;
   margin-left: auto;
-  max-width: 24em;
+  max-width: $width-narrow;
 }
 
 .site-content > figure {
-  max-width: 42em;
+  max-width: $width-medium;
 }
 
 /* Site footer */
 
 .site-footer {
-  padding: 2em;
+  margin: 2em 0 1em;
+  padding: 1em;
 }
 
 /* Masonry (the javascript plugin that tiles images on index view ) */
 
 .masonry-grid {
-  max-width: 62em;
+  max-width: $width-wide;
 }
 
 .grid-item,
@@ -184,7 +194,7 @@ a:hover, a:target {
 }
 
 .grid-item .overlay h2 {
-  margin: .5em 0 1em;
+  margin: .5em 0;
 }
 
 @media (min-width: 520px) {
@@ -258,7 +268,9 @@ a:hover, a:target {
 }
 
 .single-navigation {
-  
+  display: flex;
+  max-width: $width-medium;
+  position: relative
 }
 
 .single-navigation a {
@@ -268,10 +280,6 @@ a:hover, a:target {
 
 .single-navigation .prev,
 .single-navigation .next {
-  height: 100%;
-  position: fixed;
-    top: 48%;
-
   svg {
     height: .6em;
     width: .6em;
@@ -288,14 +296,9 @@ a:hover, a:target {
       fill: rgba(0,0,0,.5);
     }
   }
-
-}
-
-
-.single-navigation .prev {
-  left: .1em;
 }
 
 .single-navigation .next {
-  right: .1em;
+  margin-left: auto;
 }
+
