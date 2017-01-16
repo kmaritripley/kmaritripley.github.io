@@ -13,7 +13,7 @@
 
 Content images, like those used in posts and projects, should be saved in folders created just for that piece of content. For instance, if you create a project called `still_life_with_yorkie.md`, you would create a folder called `still_life_with_yorkie` in the `images/content/projects` folder. 
 
-You would place images for that project in that folder. In the front matter of the project, the URL you provide in the image path should be relative to the images folder, including the leading `/`, for example:
+You would place images for that project in this folder. In the front matter of the project, the URL you provide in the image path should be relative to the images folder, including the leading `/`, for example:
 
 	---
 	title: "Still life with yorkie"
@@ -32,15 +32,18 @@ When resizing images, go by these general standards:
 		<th>Image</th>
 		<th>Width</th>
 		<th>Size</th>
+		<th>Usage</th>
 	</tr>
 	<tr>
 		<td>Large</td>
 		<td>1200px</td>
 		<td>150-260k</td>
+		<td>At the top of the single view</td>
 	</tr>
 	<tr>
 		<td>Thumbnail</td>
 		<td>600px</td>
 		<td>50-80k</td>
+		<td>Part of the grid on the list view</td>
 	</tr>
 </table>
