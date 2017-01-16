@@ -49,4 +49,4 @@ defaults:
   - scope:
       type: projects
     values:
-      layout: default
+      layout: single

@@ -256,3 +256,46 @@ a:hover, a:target {
 .featured-image {
   margin-bottom: 1em;
 }
+
+.single-navigation {
+  
+}
+
+.single-navigation a {
+  font-size: 4em;
+  text-decoration: none;
+}
+
+.single-navigation .prev,
+.single-navigation .next {
+  height: 100%;
+  position: fixed;
+    top: 48%;
+
+  svg {
+    height: .6em;
+    width: .6em;
+  }
+
+  svg path {
+    fill: rgba(0,0,0,.3);
+    transition: fill .15s ease-in-out;
+  }
+
+  &:hover,
+  &:target {
+    svg path {
+      fill: rgba(0,0,0,.5);
+    }
+  }
+
+}
+
+
+.single-navigation .prev {
+  left: .1em;
+}
+
+.single-navigation .next {
+  right: .1em;
+}
