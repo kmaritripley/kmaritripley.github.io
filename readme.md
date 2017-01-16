@@ -22,6 +22,10 @@ You should save your progress by making a git commit after segments of work, for
 
 Remember, you'll need to run `jekyll_run` in iTerm again to start  working on your site at `localhost:4000`
 
+## Markdown
+
+Posts and pages are written in Markdown, a language that simplifies the writing of HTML. Full documentation can be found on [Daring Fireball](https://daringfireball.net/projects/markdown/). Jekyll will turn the markdown into valid HTML.
+
 ## Images
 
 Content images, like those used in posts and projects, should be saved in folders created just for that piece of content. For instance, if you create a project called `still_life_with_yorkie.md`, you would create a folder called `still_life_with_yorkie` in the `images/content/projects` folder. 
