@@ -1,6 +1,6 @@
 ---
 title: "Sir Ian"
-weight: 9
+weight: 3
 featured_image:
   description: Sir Ian, smoking.
   alt: Sir Ian McKellan
@@ -8,4 +8,4 @@ featured_image:
   thumbnail: /projects/sir_ian/sir_ian_thumb.jpg
 ---
 
-Sketch competition between my husband and me. Well, not much of a competition, actually. I won.
+Digital sketch competition between my husband and me, subject was Ian McKellen. 

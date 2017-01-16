@@ -1,11 +1,13 @@
 ---
-title: "Bird Lady"
-weight: 14
+title: "Flight"
+weight: 2
 featured_image:
-  description: Bird lady painting (oil on canvas)
-  alt: Bird lady painting
+  description: Oil on canvas.
+  alt: Statue in bird mask, against damask. Oil on canvas.
   large: /projects/bird_lady/bird_lady_large.jpg
   thumbnail: /projects/bird_lady/bird_lady_thumb.jpg
 ---
 
-This is the winter fire project page.
+Oil on canvas
+
+First in a surrealist series, this painting was purchased by the Art Department at Concordia College, Moorhead, MN.
