@@ -10,11 +10,13 @@ $color-black: rgb(20,20,20);
 $color-gray: rgb(90,90,90);
 $font-normal: 400;
 $font-heavy: 500;
-$leading: 1.4em;
+$leading: 1.4;
 
 $width-narrow: 24em;
 $width-medium: 42em;
 $width-wide: 62em;
+
+$shadow: .4rem .3rem 0 $color-primary;
 
 /* Reset */
 
@@ -54,7 +56,7 @@ h1, h2, h3, h4, h5, h6 {
   color: $color-black;
   font-size: 1em;
   font-weight: $font-heavy;
-  margin: $leading*1.2 0 $leading*.8;
+  margin: $leading*1.2em 0 $leading*.8em;
 }
 
 h1 {
@@ -69,12 +71,12 @@ h3 {
 
 h4, h5, h6 {
   font-weight: $font-normal;
-  margin: $leading*1.6 0 $leading*.4;
+  margin: $leading*1.6em 0 $leading*.4em;
   text-decoration: underline;
 }
 
 p, ul, ol {
-  margin-bottom: $leading;
+  margin-bottom: $leading*1em;
 }
 
 a, a:visited {
@@ -84,6 +86,122 @@ a, a:visited {
 
 a:hover, a:target {
   color: darken($color-primary, 15);
+}
+
+/* Buttons */
+a.button,
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+  background: white;
+  border: 1px solid $color-black;
+  color: $color-black;
+  cursor: pointer;
+  display: inline-block;
+  font-size: .9em;
+  margin-bottom: .5em;
+  margin-right: .5em;
+  padding: .5em 1em;
+  text-align: center;
+  text-decoration: none !important;
+  transition: box-shadow .1s ease-in-out;
+  white-space: nowrap; 
+}
+
+.button:hover,
+button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus,
+button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus {
+  box-shadow: $shadow;
+  outline: 0; 
+}
+
+/* Forms */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea,
+select {
+  background-color: #fff;
+  border: 1px solid $color-gray;
+  border-radius: 0;
+  box-shadow: none;
+  font-family: "Rubik", sans-serif;
+  font-size: .9em;
+  height: 2.2em;
+  margin-bottom: 1.2em;
+  padding: 6px 1em;
+  min-width: 60%;
+  transition: box-shadow .1s ease-in-out;
+}
+
+/* Removes awkward default styles on some inputs for iOS */
+input[type="email"],
+input[type="number"],
+input[type="search"],
+input[type="text"],
+input[type="tel"],
+input[type="url"],
+input[type="password"],
+textarea {
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none; 
+}
+
+textarea {
+  min-height: 8em;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  width: 100%;
+}
+
+input[type="email"]:focus,
+input[type="number"]:focus,
+input[type="search"]:focus,
+input[type="text"]:focus,
+input[type="tel"]:focus,
+input[type="url"]:focus,
+input[type="password"]:focus,
+textarea:focus,
+select:focus {
+  box-shadow: $shadow;
+  outline: 0; 
+}
+
+label,
+legend {
+  display: block;
+  font-weight: normal; 
+  margin-bottom: .5rem;
+}
+
+fieldset {
+  border-width: 0; 
+  padding: 0;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  display: inline; 
+}
+
+label > .label-body {
+  display: inline-block;
+  font-weight: normal; 
+  margin-left: .5rem;
 }
 
 /* Site header */

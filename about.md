@@ -10,11 +10,4 @@ hide_title: true
 
 ## Hello, there!
 
-A little about me. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-consequat. 
-
-Duis aute irure dolor in reprehenderit in voluptate velit esse
-cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+I'm Marit, a freelance illustrator and designer working in Minneapolis, MN. I live in a geodesic dome house where I invent recipes in my free time, and when my friends force me to sing karaoke, I only pick Hall & Oates.
