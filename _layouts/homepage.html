@@ -1,0 +1,42 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		
+		{% include head.html %}
+
+	</head>
+	<body {% if page.title %}class="{{ page.title | slugify }}"{% endif %}>
+
+		{% include header.html %}
+
+		{{ content }}
+		
+		<main class="home site-content">
+
+		  <div class="masonry-grid fading-in">
+		    <div class="grid-sizer"></div>
+		  {% assign project_list = site.projects | sort : 'weight' %}{%
+		    for project in project_list 
+		    %}<div class="grid-item visible">
+		      <a href="{{ project.url }}">
+		        <figure>
+		          <img src="{{ site.baseurl }}/images/{{ project.featured_image.thumbnail }}" alt="" />
+		        </figure>
+		        <div class="overlay">
+		          <h2>{{ project.title }}</h2>
+		        </div>
+		      </a>
+		    </div>{%
+		    endfor %}
+		  </div>
+
+		</main>
+
+		<footer class="site-footer">&copy;2016</footer>
+
+		<script type="text/javascript" src="{{ site.baseurl }}/js/imagesloaded.pkgd.js"></script>
+		<script type="text/javascript" src="{{ site.baseurl }}/js/masonry.pkgd.min.js"></script>
+		<script type="text/javascript" src="{{ site.baseurl }}/js/main.js"></script>
+		
+	</body>
+	</html>

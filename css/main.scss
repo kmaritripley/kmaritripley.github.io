@@ -289,11 +289,34 @@ label > .label-body {
 
 .masonry-grid {
   max-width: $width-wide;
+  opacity: 0;
+}
+
+/* Fallback in case javascript doesn't load */
+
+.masonry-grid.fading-in {
+  opacity: 1;
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  0% { opacity: 0; }
+  95% { opacity: 0; }
+  100% { opacity: 1; }
 }
 
 .grid-item,
 .grid-item--width2 {
   padding: .5em;
+  opacity: 0;
+}
+
+.grid-item.visible {
+  opacity: 1; 
+  transition: opacity .4s ease-in-out;
+  transform: none;
 }
 
 .grid-item img,

@@ -1,6 +1,6 @@
 ---
 title: Designer and Illustrator
-layout: home
+layout: homepage
 hide_title: true
 ---
 
