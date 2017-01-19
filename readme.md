@@ -9,6 +9,13 @@
 6. Back in iTerm, start Jekyll `run_jekyll`
 7. Open Chrome and go to `localhost:4000`
 
+## Committing changes and pushing them to GitHub
+
+1. In iTerm, run `git status` to see what changes you've made; all the files that are new, have changed, or been deleted will appear <span style="color: red;">in red</span>.
+2. If everything looks good, run `git add .` to stage all of those changes for commit
+3. Hell, why not run `git status` again to make sure all of those <span style="color: red;">red files</span> have <span style="color: green;">turned green</span>.
+4. If everything still looks good, run `git push origin master` to push all the changes to GitHub. These changes will be live on your site immediately.
+
 ## Images
 
 Content images, like those used in posts and projects, should be saved in folders created just for that piece of content. For instance, if you create a project called `still_life_with_yorkie.md`, you would create a folder called `still_life_with_yorkie` in the `images/content/projects` folder. 
@@ -19,7 +26,7 @@ You would place images for that project in this folder. In the front matter of t
 	title: "Still life with yorkie"
 	weight: 9
 	featured_image:
-	  description: A handsome yorkie sits in the sunlight surrounded by docorative fruit
+	  description: A handsome yorkie sits in the sunlight surrounded by decorative fruit
 	  alt: Still life with yorkie
 	  large: /projects/still_life_with_yorkie/yorkie_large.jpg
 	  thumbnail: /projects/still_life_with_yorkie/yorkie_thumb.jpg
