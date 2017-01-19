@@ -1,6 +1,6 @@
 ---
 title: Happy Hour
-weight: 14
+weight: 9
 featured_image:
   description: Gin & Tonic
   alt: Gin & Tonic
