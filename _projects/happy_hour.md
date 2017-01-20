@@ -4,13 +4,13 @@ weight: 9
 featured_image:
   description: Gin & Tonic
   alt: Gin & Tonic
-  large: /projects/happy_hour/gin_tonic.jpg
-  thumbnail: /projects/happy_hour/gin_tonic_thumb.jpg
+  large: /projects/happy_hour/martini.jpg
+  thumbnail: /projects/happy_hour/martini_thumb.jpg
 hide_title: true
 ---
 
 <figure>
-  <img src="{{ site.baseurl }}/images/projects/happy_hour/martini.jpg" alt="Martini">
+  <img src="{{ site.baseurl }}/images/projects/happy_hour/gin_tonic.jpg" alt="Gin & Tonic">
 </figure>
 
 # Happy Hour
