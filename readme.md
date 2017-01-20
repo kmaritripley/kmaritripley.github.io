@@ -4,17 +4,25 @@
 1. Open iTerm
 2. Go to the directory of your website `cd ~/Sites/kmaritripley.github.io`
 3. Make sure there are no updates on GitHub that you need to pull down locally `git pull origin master`
-4. Just to make sure everything is good run `git status`
+4. Just to make sure everything is good enter `git status`
 5. Open up your website in Sublime Text by running `subl .` 
 6. Back in iTerm, start Jekyll `run_jekyll`
 7. Open Chrome and go to `localhost:4000`
 
 ## Committing changes and pushing them to GitHub
 
-1. In iTerm, run `git status` to see what changes you've made; all the files that are new, have changed, or been deleted will appear <span style="color: red;">in red</span>.
-2. If everything looks good, run `git add .` to stage all of those changes for commit
-3. Hell, why not run `git status` again to make sure all of those <span style="color: red;">red files</span> have <span style="color: green;">turned green</span>.
-4. If everything still looks good, run `git push origin master` to push all the changes to GitHub. These changes will be live on your site immediately.
+1. In iTerm, enter `git status` to see what changes you've made; all the files that are new, have changed, or been deleted will appear in red.
+2. If everything looks good, enter `git add .` to stage all of those changes for commit
+3. Hell, why not enter `git status` again to make sure all of those red files have turned green.
+4. Now, it's time to make the commit. Enter `git commit -m "Add brief description of what changes were made for this commit"`
+5. One final `git status` will let you know everything looks fine.
+6. If everything does, enter `git push origin master` to push all the changes to GitHub. These changes will be live on your site immediately.
+
+## Front matter
+
+A few other front matter variables that could be used.
+
+- If you don't want the title to appear in a post or project, include the variable `hide_title: true`. Pretty self explanitory, that. 
 
 ## Images
 
