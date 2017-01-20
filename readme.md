@@ -22,7 +22,7 @@
 
 A few other front matter variables that could be used.
 
-- If you don't want the title to appear in a post or project, include the variable `hide_title: true`. Pretty self explanitory, that. 
+- If you don't want the title to appear in a post or project, include the variable `hide_title: true`. Pretty self explanatory, that. 
 
 ## Images
 
