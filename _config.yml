@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: K. Marit Ripley
 email: marit.ripley@gmail.com
-description: Personal website for illustrator and designer Marit Ripley
+description: I'm Marit, a freelance illustrator and designer working in Minneapolis, MN. I live in a geodesic dome house where I invent recipes in my free time.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://kmaritripley.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kmaritripley

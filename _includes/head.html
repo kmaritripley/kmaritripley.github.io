@@ -3,11 +3,11 @@
 	<meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <meta property="og:url" content="http://kmaritripley.com" />
+  <meta property="og:url" content="{{ site.url }}" />
 	<meta property="og:type" content="article" />
 	<meta property="og:title" content="{{ site.title }}{% if page.title %} | {{ page.title }}{% endif %}" />
 	<meta property="og:description" content="{{ site.description }}" />
-	<meta property="og:image" content="{% if page.featured_image.large %}{{ site.baseurl }}/images/{{ page.featured_image.large }}{% else %}{{ site.baseurl}}/images/og_image.jpg{% endif %}" />
+	<meta property="og:image" content="{% if page.featured_image.large %}{{ site.url }}/images/{{ page.featured_image.large }}{% else %}{{ site.url}}/images/og_image.jpg{% endif %}" />
 
 	<link rel="apple-touch-icon" sizes="180x180" href="{{ site.baseurl }}/apple-touch-icon.png">
 	<link rel="icon" type="image/png" href="{{ site.baseurl }}/favicon-32x32.png" sizes="32x32">
