@@ -283,6 +283,10 @@ label > .label-body {
 .site-footer {
   margin: 2em 0 1em;
   padding: 1em;
+  opacity: 1;
+  animation-name: fade;
+  animation-timing-function: ease-in-out;
+  animation-duration: 3s;
 }
 
 /* Masonry (the javascript plugin that tiles images on index view ) */
