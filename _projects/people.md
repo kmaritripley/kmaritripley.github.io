@@ -2,58 +2,58 @@
 title: "People"
 weight: 11
 featured_image:
-  description: Portrait of Kelly.
-  alt: Portrait of Kelly.
-  large: /projects/people/portrait_kelly.jpg
-  thumbnail: /projects/people/portrait_kelly.jpg
+  description: Portrait of Kelly
+  alt: Portrait of Kelly
+  large: /projects/people/Portrait_Kelly.jpg
+  thumbnail: /projects/people/Portrait_Kelly.jpg
 hide_title: true
 ---
 <figure>
-  <img src="{{ site.baseurl }}/images/projects/people/portrait_stella.jpg" alt="Portrait of Stella the cat">
+  <img src="{{ site.baseurl }}/images/projects/people/Portrait_Stella.jpg" alt="Portrait of Stella the cat">
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/projects/people/portrait_kelly_s.jpg" alt="Portrait of Kelly in Greece">
+  <img src="{{ site.baseurl }}/images/projects/people/Portrait_Kelly_S.jpg" alt="Portrait of Kelly in Greece">
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/projects/people/portrait_ryan2.jpg" alt="Portrait of Ryan at the lake">
+  <img src="{{ site.baseurl }}/images/projects/people/Portrait_Ryan2.jpg" alt="Portrait of Ryan at the lake">
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/projects/people/portrait_molly.jpg" alt="Portrait of Molly at a wedding">
+  <img src="{{ site.baseurl }}/images/projects/people/Portrait_Molly.jpg" alt="Portrait of Molly at a wedding">
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/projects/people/portrait_george2.jpg" alt="Portrait of George on his dad's shoulders">
+  <img src="{{ site.baseurl }}/images/projects/people/Portrait_George2.jpg" alt="Portrait of George on his dad's shoulders">
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/projects/people/portrait_george.jpg" alt="Portrait of George">
+  <img src="{{ site.baseurl }}/images/projects/people/Portrait_George.jpg" alt="Portrait of George">
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/projects/people/portrait_brianna.jpg" alt="Portrait of Brianna in Greece">
+  <img src="{{ site.baseurl }}/images/projects/people/Portrait_Brianna.jpg" alt="Portrait of Brianna in Greece">
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/projects/people/portrait_sara.jpg" alt="Portrait of Sara in Greece">
+  <img src="{{ site.baseurl }}/images/projects/people/Portrait_Sara.jpg" alt="Portrait of Sara in Greece">
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/projects/people/portrait_liz.jpg" alt="Portrait of Liz in Greece">
+  <img src="{{ site.baseurl }}/images/projects/people/Portrait_Liz.jpg" alt="Portrait of Liz in Greece">
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/projects/people/portrait_cindy.jpg" alt="Portrait of Cindy at the lake">
+  <img src="{{ site.baseurl }}/images/projects/people/Portrait_Cindy.jpg" alt="Portrait of Cindy at the lake">
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/projects/people/portrait_ryan.jpg" alt="Portrait of Ryan at a desk">
+  <img src="{{ site.baseurl }}/images/projects/people/Portrait_Ryan.jpg" alt="Portrait of Ryan at a desk">
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/projects/people/portrait_samson.jpg" alt="Portrait of Samson the dog">
+  <img src="{{ site.baseurl }}/images/projects/people/Portrait_Samson.jpg" alt="Portrait of Samson the dog">
 </figure>
 
 # People
