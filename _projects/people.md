@@ -9,8 +9,6 @@ featured_image:
 gallery_images: 
   - path: /images/projects/people/Portrait_Kelly.jpg
     title: Portrait of Kelly
-  - path: /images/projects/people/Portrait_Stella.jpg
-    title: Portrait of Stella the cat
   - path: /images/projects/people/Portrait_Kelly_S.jpg"
     title: Portrait of Kelly in Greece
   - path: /images/projects/people/Portrait_Ryan2.jpg
@@ -33,6 +31,8 @@ gallery_images:
     title: Portrait of Ryan at a desk
   - path: /images/projects/people/Portrait_Samson.jpg" 
     title: Portrait of Samson the dog
+  - path: /images/projects/people/Portrait_Stella.jpg
+    title: Portrait of Stella the cat
 ---
 
 Pictures of some awesome people, and a couple pets.
