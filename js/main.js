@@ -34,8 +34,29 @@ imagesLoaded( grid, function() {
 
 
 // Lightbox 
+var lightboxLoaded = false;
+var notMobile = function() {
+	var w = window.innerWidth
+	|| document.documentElement.clientWidth
+	|| document.body.clientWidth;
+	return w > 520;
+};
 
-var lightbox = new Lightbox();
+var loadLightbox = function() {
+	if ( notMobile() ) {
+		var lightbox = new Lightbox();
+		lightbox.load();
+		lightboxLoaded = true;
+	}
+};
+loadLightbox();
 
-lightbox.load();
+window.addEventListener("resize", function() {
+	if ( !lightboxLoaded && notMobile() ) {
+		loadLightbox();
+	}
+});
+
+
+
 
