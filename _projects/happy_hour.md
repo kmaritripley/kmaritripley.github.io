@@ -2,8 +2,8 @@
 title: "Happy Hour"
 weight: 9
 featured_image:
-  description: Gin & Tonic
-  alt: Gin & Tonic
+  description: Martini
+  alt: Martini
   large: /projects/happy_hour/martini.jpg
   thumbnail: /projects/happy_hour/martini_thumb.jpg
 hide_title: true
