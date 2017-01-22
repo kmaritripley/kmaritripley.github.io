@@ -1,0 +1,36 @@
+	<!DOCTYPE html>
+	<html>
+	<head>
+		
+		{% include head.html %}
+
+	</head>
+	<body {% if page.title %}class="{{ page.title | slugify }}"{% endif %}>
+
+		{% include header.html %}
+		
+		<main class="home site-content">
+
+			{% unless page.hide_title %}<h1>{{ page.title }}</h1>{% endunless %}
+
+			{{ content }}
+
+		  <div class="masonry-grid fading-in">
+		    <div class="grid-sizer"></div>
+		  {% assign gallery = page.gallery_images %}{%
+		    for image in gallery 
+		    %}<img class="grid-item visible" src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.title }}" class="jslghtbx-thmb" data-jslghtbx data-jslghtbx-group="gallery-1" />{%
+		    endfor %}
+		  </div>
+
+		</main>
+
+		{% include footer.html %}
+
+		<script type="text/javascript" src="{{ site.baseurl }}/js/imagesloaded.pkgd.js"></script>
+		<script type="text/javascript" src="{{ site.baseurl }}/js/masonry.pkgd.min.js"></script>
+		<script type="text/javascript" src="{{ site.baseurl }}/js/lightbox.js"></script>
+		<script type="text/javascript" src="{{ site.baseurl }}/js/main.js"></script>
+		
+	</body>
+	</html>

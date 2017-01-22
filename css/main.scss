@@ -344,6 +344,7 @@ label > .label-body {
 
 .grid-item .overlay h2 {
   margin: .5em 0;
+  padding: 0 1em;
 }
 
 @media (min-width: 520px) {
@@ -354,6 +355,18 @@ label > .label-body {
 
   .grid-item--width2 { 
     width: 100%; 
+  }
+
+  img.grid-item {
+    cursor: pointer;
+    display: block;
+    -webkit-transform: translateZ(0px);
+    -webkit-backface-visibility: hidden;
+    transition: opacity .1s ease-in-out;
+  }
+
+  img.grid-item:hover {
+    opacity: .6;
   }
 
   .grid-item .overlay h2 {
@@ -451,3 +464,4 @@ label > .label-body {
   margin-left: auto;
 }
 
+@import 'lightbox';

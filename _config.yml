@@ -24,6 +24,9 @@ github_username:  kmaritripley
 # Build settings
 markdown: kramdown
 
+sass:
+  sass_dir: _scss
+
 gems:
 
 # Server Config options

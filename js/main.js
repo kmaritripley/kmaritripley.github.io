@@ -1,3 +1,5 @@
+// Masonry
+
 var grid = document.querySelector('.masonry-grid');
 
 // Prevent no-javascript fallback from fading in grid too soon 
@@ -29,3 +31,11 @@ imagesLoaded( grid, function() {
 		}, 120)
 	})(0);
 });
+
+
+// Lightbox 
+
+var lightbox = new Lightbox();
+
+lightbox.load();
+
