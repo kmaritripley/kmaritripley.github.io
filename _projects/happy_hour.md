@@ -19,4 +19,4 @@ hide_title: true
 
 # Happy Hour
 
-Digital illustrations, inspired by Cirque du Soleil and delicious cocktails.
+Digital illustrations, inspired by Cirque du Soleil and delicious cocktails. Because why not?
