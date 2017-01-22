@@ -10,7 +10,11 @@ hide_title: true
 ---
 
 <figure>
-  <img src="{{ site.baseurl }}/images/projects/happy_hour/gin_tonic.jpg" alt="Gin & Tonic">
+  <img src="{{ site.baseurl }}/images/projects/happy_hour/gin_tonic_revised.jpg" alt="Gin & Tonic">
+</figure>
+
+<figure>
+  <img src="{{ site.baseurl }}/images/projects/happy_hour/manhattan.jpg" alt="Manhattan">
 </figure>
 
 # Happy Hour
