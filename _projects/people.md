@@ -5,9 +5,10 @@ layout: gallery
 featured_image:
   description: Portrait of Kelly
   alt: Portrait of Kelly
-  large: /projects/people/Portrait_Kelly.jpg
   thumbnail: /projects/people/Portrait_Kelly.jpg
 gallery_images: 
+  - path: /images/projects/people/Portrait_Kelly.jpg
+    title: Portrait of Kelly
   - path: /images/projects/people/Portrait_Stella.jpg
     title: Portrait of Stella the cat
   - path: /images/projects/people/Portrait_Kelly_S.jpg"
