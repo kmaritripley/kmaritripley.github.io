@@ -1,7 +1,7 @@
 ---
-layout: default
 title: Thanks
 hide_title: true
+permalink: /thanks/
 ---
 # Thanks for the message.
 
