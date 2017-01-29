@@ -10,4 +10,4 @@ featured_image:
 
 Oil on canvas
 
-Still life with bowl, fabric, and hat; study in complimentary colors. Purchased for private collection.
+Still life with bowl, fabric, and hat; study in complementary colors. Purchased for private collection.
