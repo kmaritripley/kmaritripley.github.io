@@ -6,7 +6,7 @@ featured_image:
   alt: Sir Ian McKellan
   large: /projects/sketch-offs/sir_ian.jpg
   thumbnail: /projects/sketch-offs/sir_ian_thumb.jpg
-hide title: true
+hide_title: true
 ---
 
 <figure>
