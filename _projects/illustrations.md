@@ -18,7 +18,7 @@ hide_title: true
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/projects/illustrations/GRYSG_bookmark.jpg" alt="God Rest Ye Scary Gentlemen">
+  <img src="{{ site.baseurl }}/images/projects/illustrations/GRYSG_poster.jpg" alt="God Rest Ye Scary Gentlemen">
 </figure>
 
 # Illustrations
