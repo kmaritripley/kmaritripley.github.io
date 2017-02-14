@@ -1,5 +1,5 @@
 ---
-title: "Logos & Swag"
+title: "Logo Design"
 weight: 10
 featured_image:
   description: Quality Pitch Pipes logo.
@@ -16,7 +16,7 @@ hide_title: true
   <img src="{{ site.baseurl }}/images/projects/logo_mockups/botter's_butter.jpg" alt="Botter's Butter">
 </figure>
 
-# Swag Logos
+# Logos
 
 
-Swag logos for Quality Pitch Pipes, Inc. and Botter's Butter.
+Logo design for Quality Pitch Pipes, Inc. and Botter's Butter.
