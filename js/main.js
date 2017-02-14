@@ -33,7 +33,7 @@ if (grid) {
 }
 
 // Lightbox 
-if (document.querySelectorAll("body.gallery-layout") > 0 ) {
+if (document.querySelectorAll("body.gallery-layout").length > 0 ) {
 	var lightboxLoaded = false;
 	var notMobile = function() {
 		var w = window.innerWidth
