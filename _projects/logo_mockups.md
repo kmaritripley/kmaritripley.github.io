@@ -12,7 +12,11 @@ hide_title: true
   <img src="{{ site.baseurl }}/images/projects/logo_mockups/pitch_pipe.jpg" alt="Pitch pipe silhouette">
 </figure>
 
+<figure>
+  <img src="{{ site.baseurl }}/images/projects/logo_mockups/botter's_butter.jpg" alt="Botter's Butter">
+</figure>
+
 # Logo Mock-ups
 
 
-Swag logos for Quality Pitch Pipes, Inc.
+Swag logos for Quality Pitch Pipes, Inc. and Botter's Butter.
