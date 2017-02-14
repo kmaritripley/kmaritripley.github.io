@@ -1,11 +1,11 @@
 ---
-title: "Waiting for Godot"
+title: "Charcoal & Ink"
 weight: 5
 featured_image:
   description: Lucky, Waiting for Godot.
   alt: Lucky, Waiting for Godot.
-  large: /projects/costume_design/lucky.jpg
-  thumbnail: /projects/costume_design/lucky_thumb.jpg
+  large: /projects/charcoal_ink/lucky.jpg
+  thumbnail: /projects/charcoal_ink/lucky_thumb.jpg
 ---
 **Lucky**  
 Charcoal, India ink
