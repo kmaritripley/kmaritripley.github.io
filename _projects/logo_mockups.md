@@ -18,5 +18,3 @@ gallery_images:
   - path: /images/projects/logo_mockups/pete's_peppers.jpg
     title: Pete's Peppers
 ---
-
-Logo design for Quality Pitch Pipes, Inc. and Botter's Butter.
