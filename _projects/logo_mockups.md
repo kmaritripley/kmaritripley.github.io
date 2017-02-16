@@ -17,4 +17,6 @@ gallery_images:
     title: Bo Peep Mutton
   - path: /images/projects/logo_mockups/pete's_peppers.jpg
     title: Pete's Peppers
+  - path: /images/projects/logo_mockups/horner's_pie.jpg
+    title: Horner's Christmas Pie
 ---
