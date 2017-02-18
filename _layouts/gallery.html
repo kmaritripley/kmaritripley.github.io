@@ -19,7 +19,7 @@
 		    <div class="grid-sizer"></div>
 		  {% assign gallery = page.gallery_images %}{%
 		    for image in gallery 
-		    %}<img class="grid-item visible" src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.title }}" class="jslghtbx-thmb" data-jslghtbx data-jslghtbx-group="gallery-1" />{%
+		    %}<img class="grid-item visible" src="{{ site.baseurl }}{{ image.path }}" alt="{{ image.title }}" class="jslghtbx-thmb" data-jslghtbx data-jslghtbx-group="gallery-1" data-jslghtbx-caption="{{ image.caption }}"/>{%
 		    endfor %}
 		  </div>
 

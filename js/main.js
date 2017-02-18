@@ -42,9 +42,13 @@ if (document.querySelectorAll("body.gallery-layout").length > 0 ) {
 		return w > 520;
 	};
 
+	var lightboxOptions = {
+		captions: true
+	}
+
 	var loadLightbox = function() {
 		if ( notMobile() ) {
-			var lightbox = new Lightbox();
+			var lightbox = new Lightbox(lightboxOptions);
 			lightbox.load();
 			lightboxLoaded = true;
 		}
