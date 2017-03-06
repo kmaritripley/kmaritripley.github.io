@@ -1,5 +1,5 @@
 ---
-title: "People"
+title: "Photography"
 weight: 11
 layout: gallery
 featured_image:
