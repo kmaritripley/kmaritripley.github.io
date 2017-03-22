@@ -4,10 +4,14 @@ weight: 9
 featured_image:
   description: Martini
   alt: Martini
-  large: /projects/illustrations/martini.jpg
-  thumbnail: /projects/illustrations/martini_thumb.jpg
+  large: /projects/illustrations/ripley's_special_bitter.jpg
+  thumbnail: /projects/illustrations/ripley's_special_bitter_thumb.jpg
 hide_title: true
 ---
+
+<figure>
+  <img src="{{ site.baseurl }}/images/projects/illustrations/GRYSG_poster.jpg" alt="God Rest Ye Scary Gentlemen">
+</figure>
 
 <figure>
   <img src="{{ site.baseurl }}/images/projects/illustrations/gin_tonic_revised.jpg" alt="Gin & Tonic">
@@ -18,7 +22,7 @@ hide_title: true
 </figure>
 
 <figure>
-  <img src="{{ site.baseurl }}/images/projects/illustrations/GRYSG_poster.jpg" alt="God Rest Ye Scary Gentlemen">
+  <img src="{{ site.baseurl }}/images/projects/illustrations/martini.jpg" alt="Martini">
 </figure>
 
 # Illustrations
