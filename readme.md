@@ -7,7 +7,7 @@
 4. Make sure everything looks good by entering `git status`
 5. If so, start Jekyll by entering `run_jekyll`
 6. Open Chrome and go to `localhost:4000`
-7. Open up File Explorer, go into Sites folder, right click "kmaritripley.github.io", and select "Open as Brackets project"
+7. Back in Hyper, enter `code .` to open up your website in VS Code editor program
 
 ## Committing changes and pushing them to GitHub
 
