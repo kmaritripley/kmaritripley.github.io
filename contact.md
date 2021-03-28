@@ -7,7 +7,10 @@ hide_title: true
 
 If you are interested in working with me on a design, illustration or photography project, drop me a line! You can also find me on [Twitter](http://twitter.com/kmaritripley) and [LinkedIn](http://www.linkedin.com/pub/marit-ripley/26/b25/a18).
 
-<form method="POST" action="http://formspree.io/marit.ripley@gmail.com">
+<form 
+  action="https://formspree.io/f/mjvjblaz"
+  method="POST"
+>
 
   <input type="text" name="_gotcha" style="display:none" />
   <input type="hidden" name="_next" value="{{site.url}}/thanks" />
