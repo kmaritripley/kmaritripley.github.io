@@ -8,6 +8,4 @@ featured_image:
   thumbnail: /projects/winter_fire/winter_fire_thumb.jpg
 ---
 
-Oil on canvas, 4' x 3.5'  
-$1,000
-
+Oil on canvas, 4' x 3.5'
